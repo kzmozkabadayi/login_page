@@ -1,0 +1,113 @@
+html,body{
+    background-color: #fff;
+    font-family: 'Source Sans Pro',sans-serif;
+    overflow-x: hidden !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+*{
+    text-decoration: none !important;
+}
+
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color: #fff;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav .links a{
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+.nav .links .mainlink{
+    color: #e0501b;
+}
+
+.nav h4{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+/* LANDING CSS */
+
+.landing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw 0 10vw;
+    height: 100vh;
+}
+
+.landingText h2{
+    font-size: 5vw;
+    margin: 0 !important;
+}
+
+.landingText h3{
+    margin: 6px !important;
+    margin-top: 10px !important;
+    font-size: 23px;
+    opacity: 0.5;
+    line-height: 30px;
+}
+
+.landingText .button-part{
+    margin-top:30px;
+    display:flex;
+}
+
+.landingText .button-part .btn-facebook {
+    background-color:#3C599A ;
+    color: #ffffff;
+    font-size:20px;
+    border-radius: 10px;
+    padding-right:30px;
+    padding-left:30px;
+    letter-spacing: 0.5px;
+    width: 100%;
+}
+
+.landingText .button-part .btn-google{
+    background-color: #DB4C39;
+    font-size: 20px;
+    border-radius: 10px;
+    color:white;
+    padding-right:30px;
+    padding-left:30px;
+    letter-spacing:0.5px;
+    width: 100%;
+}
+
+.facebook-button, .google-button {
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px 30px 5px 0px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+
+.landingImage img{
+    width: 28vw;
+}
+
+
